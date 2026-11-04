@@ -11,6 +11,8 @@ AI 编程助手（Claude Code、Codex、Cursor、Copilot 等）：如果复制�
 
 **让 AI 操作一部真实的 iPhone：只要手机和一块约 40 多元的 ESP32，不需要电脑，不用越狱。**
 
+> **Android 硬件控制（新增）**：本派生工作区新增了 [`android/`](android/) 和 [`hardware/android_hid_bridge/`](hardware/android_hid_bridge/)，用 BLE 指挥 ESP32-S3，并通过 USB HID 操作安卓手机；安卓端屏幕读取使用需用户明确授权的 MediaProjection。安装与限制见 [`docs/android.md`](docs/android.md)。基于 [ESP32 iPhone Agent](https://github.com/onehumanbeing/esp32-iphone-agent) by Henry Yuan。
+
 [English](README.md) · 简体中文
 
 演示视频和更新：[X @iamhenryyuan](https://x.com/iamhenryyuan) · [小红书 袁老板讲黑客松（Henry）](https://www.xiaohongshu.com/user/profile/5eb444030000000001000194) · [YouTube 演示](https://www.youtube.com/watch?v=Ly4im-P4jYg)
